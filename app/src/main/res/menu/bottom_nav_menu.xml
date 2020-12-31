@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:checkableBehavior="single"
+    >
+
+    <item
+        android:id="@+id/navigation_faiz"
+        android:icon="@drawable/ic_faiz"
+        android:title="@string/title_faiz" />
+
+    <item
+        android:id="@+id/navigation_kaixa"
+        android:icon="@drawable/ic_kaixa"
+        android:title="@string/title_kaixa" />
+
+    <item
+        android:id="@+id/navigation_delta"
+        android:icon="@drawable/ic_delta"
+        android:title="@string/title_delta" />
+
+</menu>

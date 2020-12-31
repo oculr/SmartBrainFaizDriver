@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_faiz">
+
+    <fragment
+        android:id="@+id/fragment_faiz"
+        android:name="com.cjluhz.curriculum.smartbrainfaizdriver.ui.faiz.FaizFragment"
+        android:label="fragment_faiz"
+        tools:layout="@layout/fragment_faiz"/>
+    <fragment
+        android:id="@+id/fragment_kaixa"
+        android:name="com.cjluhz.curriculum.smartbrainfaizdriver.ui.kaixa.KaixaFragment"
+        android:label="fragment_kaixa"
+        tools:layout="@layout/fragment_kaixa" />
+    <fragment
+        android:id="@+id/fragment_delta"
+        android:name="com.cjluhz.curriculum.smartbrainfaizdriver.ui.delta.DeltaFragment"
+        android:label="fragment_delta"
+        tools:layout="@layout/fragment_delta" />
+
+</navigation>
