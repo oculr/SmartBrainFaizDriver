@@ -44,7 +44,7 @@ public class KaixaFragment extends Fragment {
         super.onCreateView(inflater, container, savedInstanceState);
         root = inflater.inflate(R.layout.fragment_kaixa, container,false);
         mContext = getContext();
-        mode = KaixaFragment.GoldSmash;
+        mode = KaixaFragment.GranImpact;
 
         yes = root.findViewById(R.id.yes);
         cancel = root.findViewById(R.id.cancel);
@@ -85,8 +85,10 @@ public class KaixaFragment extends Fragment {
     }
 
     public void henshin(){
-        if ("3821".equals(command))
+        if ("3821".equals(command)) {
             sp.play("913：Jet-Sliger Got Closer!!.mp3");
+            return;
+        }
         if ("913".equals(command))
             sp.play("913：Standing By.mp3");
         else if("".equals(command)) {

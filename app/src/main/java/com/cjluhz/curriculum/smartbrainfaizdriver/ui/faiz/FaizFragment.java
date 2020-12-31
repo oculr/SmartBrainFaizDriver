@@ -87,8 +87,10 @@ public class FaizFragment extends Fragment {
     }
 
     public void henshin(){
-        if ("3821".equals(command))
+        if ("3821".equals(command)){
             sp.play("555：Jet-Sliger Got Closer!!.mp3");
+            return;
+        }
         if (mode == FaizFragment.Faiz) {
             switch (command) {
                 case "555":
